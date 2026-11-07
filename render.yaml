@@ -1,7 +1,6 @@
 services:
   - type: web
     name: geniea-ai
-    env: node
+    runtime: node
     buildCommand: npm install
     startCommand: npm start
-    autoDeploy: true
